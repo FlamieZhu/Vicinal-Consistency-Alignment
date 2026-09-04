@@ -6,7 +6,6 @@ __pycache__/
 .DS_Store
 .idea/
 .vscode/
-.superpowers/
 
 # Training outputs and model weights
 logs/

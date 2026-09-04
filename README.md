@@ -70,8 +70,6 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
 ./scripts/train_inat18_200ep.sh /path/to/inaturalist2018
 ```
 
-The scripts use all visible GPUs through PyTorch DataParallel, and the documented batch sizes are global. The 100-epoch iNaturalist setting uses global batch size 512 and initial learning rate 0.2, consistent with the manuscript-wide setting. The 200-epoch script preserves the resource-constrained configuration actually used for the reported 77.5 result: global batch size 256 and initial learning rate 0.1.
-
 ## Evaluation
 
 ```bash
@@ -92,8 +90,4 @@ The scripts use all visible GPUs through PyTorch DataParallel, and the documente
 
 ## Acknowledgements
 
-The released implementation directly derives portions of its model, loss, utility, and data code from [RIDE](https://github.com/frank-xwang/RIDE-LongTailRecognition) and [Balanced Contrastive Learning](https://github.com/FlamieZhu/Balanced-Contrastive-Learning). RIDE's backbones in turn incorporate code from [Classifier-Balancing](https://github.com/facebookresearch/classifier-balancing), [OLTR](https://github.com/zhmiao/OpenLongTailRecognition-OLTR), and [LDAM-DRW](https://github.com/kaidic/LDAM-DRW). The bundled RandAugment implementation is adapted from [timm](https://github.com/huggingface/pytorch-image-models/blob/main/timm/data/auto_augment.py), which credits the TensorFlow TPU AutoAugment implementation. We also thank the authors of [PaCo](https://github.com/JIA-Lab-research/Parametric-Contrastive-Learning) and [MDCS](https://github.com/fistyee/MDCS), whose public implementations informed this work. These acknowledgements do not imply endorsement.
-
-## License
-
-VICAL-owned work is released under the root [MIT License](LICENSE). Imported and derived components remain subject to their original terms; see [Third-Party Notices](THIRD_PARTY_NOTICES.md) and the exact bundled license texts under [`LICENSES/`](LICENSES/).
+We thank the authors of [RIDE](https://github.com/frank-xwang/RIDE-LongTailRecognition), [PaCo](https://github.com/JIA-Lab-research/Parametric-Contrastive-Learning), and [MDCS](https://github.com/fistyee/MDCS) for making their code publicly available. Our implementation builds upon these open-source projects.

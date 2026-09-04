@@ -91,3 +91,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
 ## Acknowledgements
 
 We thank the authors of [RIDE](https://github.com/frank-xwang/RIDE-LongTailRecognition), [PaCo](https://github.com/JIA-Lab-research/Parametric-Contrastive-Learning), and [MDCS](https://github.com/fistyee/MDCS) for making their code publicly available. Our implementation builds upon these open-source projects.
+
+## License
+
+This project is released under the [MIT License](LICENSE). Third-party licenses are included in [`LICENSES/`](LICENSES/).

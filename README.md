@@ -90,7 +90,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
 
 ## Acknowledgements
 
-We thank the authors of RIDE, LDAM-DRW, PaCo, and MDCS for their open-source implementations.
+We thank the authors of [RIDE](https://github.com/frank-xwang/RIDE-LongTailRecognition), [LDAM-DRW](https://github.com/kaidic/LDAM-DRW), [PaCo](https://github.com/JIA-Lab-research/Parametric-Contrastive-Learning), and [MDCS](https://github.com/fistyee/MDCS) for their open-source implementations.
 
 ## License
 

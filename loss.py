@@ -118,14 +118,6 @@ class DiverseExpertLoss(nn.Module):
         expert3_logits = expert3_logits + torch.log(self.prior + 1e-9) * self.prior_list[2] 
         loss += self.base_loss(expert3_logits[:batch_size], target)
 
-
-        
-
-
-
-
-        
-
         return loss
     
 
@@ -279,8 +271,6 @@ class MDCSLoss(nn.Module):
                                          reduction='batchmean') * (temperature ** 2)
 
 
-
-
         loss += self.base_loss(expert1_logits, target.repeat(2,))
 
         loss += self.base_loss(expert2_logits, target.repeat(2,))
@@ -363,9 +353,7 @@ class ExpertKDLoss(nn.Module):
         self.C_number = len(cls_num_list)  # class number
         self.prior_list = prior_list 
         self.kd_type = kd_type
-        self.temp = temp
-
-        
+        self.temp = temp       
 
     def forward(self, logits_stu, logits_tea, target):
         ce_loss = 0
@@ -571,18 +559,7 @@ class MixedSelfDis(nn.Module):
                         prob_ml, reduction='batchmean'
                         )
 
-
-                
-
-
-
-                
-
-                
-
-                    
-                
-    
+  
         return ce_loss, sd_loss, ml_loss
 
 
@@ -607,14 +584,7 @@ class KDCEoss(nn.Module):
         kl_loss = 0
         
         kl_ob_loss = 0
-
-
-
-
-                        
-
-
-        
+       
         tau_list = [-1, 1, 3]
 
 
@@ -656,21 +626,7 @@ class KDCEoss(nn.Module):
             select_index = (tea_index != targets.repeat(2,)) & (stu_index == targets.repeat(2,))
             select_index = ~select_index
 
-            num_samples = torch.sum(select_index)
-
-                
-            
-
-
-
-            
-
-            
-
-
-
-            
-            
+            num_samples = torch.sum(select_index)            
             
             ml_nums = 0
             common_index = 0
@@ -731,31 +687,6 @@ class KDCEoss(nn.Module):
                 kl_div_loss += 1.5*1.5*(F.kl_div(log_prob_stu, prob_tea_consis, reduction='none').sum(1) * mutual_coeff  ).sum() / mutual_coeff.sum() / (num_experts - 1)
                 
             
-            
-
-
-
-
-
-
-        
-            
-
-
-            
-
-
-
-
-
-
-            
-
-            
-            
-        
-        
-
         return ce_loss, kl_consis_loss, kl_div_loss
     
 
@@ -824,11 +755,6 @@ def js_div(prob1, prob2):
 
 
 def dkd_loss(logits_student, logits_teacher, target, alpha=1.0, beta=1.0, temperature=1.0, cls_num_list=None, cb_trsfm=False):
-
-
-
-
-
 
     gt_mask = _get_gt_mask(logits_student, target)
     other_mask = _get_other_mask(logits_student, target)

@@ -84,7 +84,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
 ```bibtex
 @article{zhu2026,
   title  = {VICAL: Vicinal Consistency Alignment for Long-Tailed Visual Recognition},
-  author = {Zhu, Jianggang and Wang, Zheng and Zhu, Bin and Chen, Yi-Ping Phoebe and Chen, Jingjing}
+  author = {Zhu, Jianggang and Wang, Zheng and Zhu, Bin and Chen, Yi-Ping Phoebe and Chen, Jingjing},
   journal={arXiv preprint},
   year={2026}
 }

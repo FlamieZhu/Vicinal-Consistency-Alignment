@@ -1,5 +1,5 @@
 # VICAL: Vicinal Consistency Alignment for Long-Tailed Visual Recognition
-Paper:[arXiv2609.04948](https://arxiv.org/pdf/2609.04948v1)
+Paper: [arXiv2609.04948](https://arxiv.org/pdf/2609.04948v1)
 
 Jianggang Zhu · Zheng Wang · Bin Zhu · Yi-Ping Phoebe Chen · Jingjing Chen
 

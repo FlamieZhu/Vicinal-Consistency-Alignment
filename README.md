@@ -1,5 +1,5 @@
 # VICAL: Vicinal Consistency Alignment for Long-Tailed Visual Recognition
-
+[paper](https://arxiv.org/pdf/2609.04948v1)
 Jianggang Zhu · Zheng Wang · Bin Zhu · Yi-Ping Phoebe Chen · Jingjing Chen
 
 Multi-expert models have become a dominant paradigm for long-tailed learning, often attributed to the benefit of expert diversity. However, diversity induced by logit adjustment or explicit regularization does not necessarily improve ensemble accuracy. We show that multi-expert models benefit more from reducing prediction variance than from maximizing diversity, and introduce **VICAL**, a **VI**cinal **C**onsistency **AL**ignment framework built on two complementary components. Self-Consistency Learning discourages reliance on unstable high-frequency patterns and smooths the local loss landscape, while Deep Ensemble Distillation promotes cross-expert agreement over low-frequency semantics using a low-resolution view. Experiments on ImageNet-LT and iNaturalist 2018 demonstrate strong state-of-the-art performance and validate the effectiveness of this consistency-driven design.
@@ -85,7 +85,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
 @article{zhu2026,
   title  = {VICAL: Vicinal Consistency Alignment for Long-Tailed Visual Recognition},
   author = {Zhu, Jianggang and Wang, Zheng and Zhu, Bin and Chen, Yi-Ping Phoebe and Chen, Jingjing},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv: 2609.04948},
   year={2026}
 }
 ```

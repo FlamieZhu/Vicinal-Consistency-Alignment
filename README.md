@@ -1,7 +1,30 @@
 # VICAL: Vicinal Consistency Alignment for Long-Tailed Visual Recognition
-Paper: [arXiv2609.04948](https://arxiv.org/pdf/2609.04948v1)
 
-Jianggang Zhu · Zheng Wang · Bin Zhu · Yi-Ping Phoebe Chen · Jingjing Chen
+<div align="center">
+
+### 🎉 Accepted to ECCV 2026
+
+### Jianggang Zhu<sup>12</sup> ·
+Zheng Wang<sup>3</sup> ·
+Bin Zhu<sup>4</sup> ·
+Yi-Ping Phoebe Chen<sup>5</sup> ·
+Jingjing Chen<sup>12†</sup> ·
+
+<sup>†</sup> Corresponding author
+
+<sup>1</sup> Institute of Trustworthy Embodied AI, Fudan University &nbsp;&nbsp;
+<sup>2</sup> Shanghai Key Laboratory of Multimodal Embodied AI &nbsp;&nbsp;
+<sup>3</sup> Zhejiang University of Technology &nbsp;&nbsp;
+<sup>4</sup> Singapore Management University &nbsp;&nbsp;
+<sup>5</sup> La Trobe University
+
+<br>
+
+[![Paper](https://img.shields.io/badge/Paper-ECCV%202026-b31b1b)]([https://arxiv.org/](https://arxiv.org/pdf/2609.04948v1))
+[![License](https://img.shields.io/badge/License-MIT-67b231)](./LICENSE)
+
+</div>
+
 
 Multi-expert models have become a dominant paradigm for long-tailed learning, often attributed to the benefit of expert diversity. However, diversity induced by logit adjustment or explicit regularization does not necessarily improve ensemble accuracy. We show that multi-expert models benefit more from reducing prediction variance than from maximizing diversity, and introduce **VICAL**, a **VI**cinal **C**onsistency **AL**ignment framework built on two complementary components. Self-Consistency Learning discourages reliance on unstable high-frequency patterns and smooths the local loss landscape, while Deep Ensemble Distillation promotes cross-expert agreement over low-frequency semantics using a low-resolution view. Experiments on ImageNet-LT and iNaturalist 2018 demonstrate strong state-of-the-art performance and validate the effectiveness of this consistency-driven design.
 

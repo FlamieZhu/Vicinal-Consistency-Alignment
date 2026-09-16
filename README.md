@@ -4,7 +4,7 @@
 
 ### 🎉 Accepted to ECCV 2026
 
-### Jianggang Zhu<sup>12</sup> ·
+Jianggang Zhu<sup>12</sup> ·
 Zheng Wang<sup>3</sup> ·
 Bin Zhu<sup>4</sup> ·
 Yi-Ping Phoebe Chen<sup>5</sup> ·

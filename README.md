@@ -20,7 +20,7 @@ Jingjing Chen<sup>12†</sup> ·
 
 <br>
 
-[![Paper](https://img.shields.io/badge/Paper-ECCV%202026-b31b1b)]([https://arxiv.org/](https://arxiv.org/pdf/2609.04948v1))
+[![Paper](https://img.shields.io/badge/Paper-ECCV%202026-b31b1b)]([https://arxiv.org/pdf/2609.04948v1])
 [![License](https://img.shields.io/badge/License-MIT-67b231)](./LICENSE)
 
 </div>

@@ -13,7 +13,8 @@ Jingjing Chen<sup>12†</sup> ·
 <sup>†</sup> Corresponding author
 
 <sup>1</sup> Institute of Trustworthy Embodied AI, Fudan University &nbsp;&nbsp;
-<sup>2</sup> Shanghai Key Laboratory of Multimodal Embodied AI &nbsp;&nbsp;
+<sup>2</sup> Shanghai Key Laboratory of Multimodal Embodied AI 
+<br>
 <sup>3</sup> Zhejiang University of Technology &nbsp;&nbsp;
 <sup>4</sup> Singapore Management University &nbsp;&nbsp;
 <sup>5</sup> La Trobe University

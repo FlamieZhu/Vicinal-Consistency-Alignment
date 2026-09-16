@@ -33,7 +33,7 @@ Multi-expert models have become a dominant paradigm for long-tailed learning, of
 
 ![VICAL framework](assets/framework.png)
 
-*Overview of VICAL. Self-Consistency Learning stabilizes each expert within the vicinity of a sample, while Deep Ensemble Distillation aligns low-frequency semantic knowledge across experts and filters conflicting transfer.*
+*Overview of VICAL. Self-Consistency (SC) Learning stabilizes each expert within the vicinity of a sample, while Deep Ensemble Distillation (DED) aligns low-frequency semantic knowledge across experts and filters conflicting transfer.*
 
 ## Method
 

@@ -83,11 +83,13 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
 ## Citation
 
 ```bibtex
-@article{zhu2026,
-  title  = {VICAL: Vicinal Consistency Alignment for Long-Tailed Visual Recognition},
-  author = {Zhu, Jianggang and Wang, Zheng and Zhu, Bin and Chen, Yi-Ping Phoebe and Chen, Jingjing},
-  journal={arXiv preprint arXiv: 2609.04948},
-  year={2026}
+@inproceedings{zhu2026vical,
+  title={VICAL: Vicinal Consistency Alignment for Long-Tailed Visual Recognition},
+  author={Zhu, Jianggang and Wang, Zheng and Zhu, Bin and Chen, Yi-Ping Phoebe and Chen, Jingjing},
+  booktitle={European Conference on Computer Vision},
+  pages={560--576},
+  year={2026},
+  organization={Springer}
 }
 ```
 
